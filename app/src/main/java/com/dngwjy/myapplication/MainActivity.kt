@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     inner class ViewPagerAdapter(fm: FragmentManager)
         : FragmentPagerAdapter(fm){
         // sebuah list yang menampung objek Fragment
+        //asdasfaqw
         private val pages = listOf(
             MakananFragment.getInstance(),
             MinumanFragment.getInstance()
