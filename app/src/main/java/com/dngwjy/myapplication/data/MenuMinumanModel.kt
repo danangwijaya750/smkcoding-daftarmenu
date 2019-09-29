@@ -5,10 +5,10 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 /**
- * Created by wijaya on 28/09/19
+ * Created by wijaya on 29/09/19
  */
 @Entity
-data class MenuMakananModel(
+data class MenuMinumanModel(
     @PrimaryKey(autoGenerate = true)
     var idMenu:Int?=null,
     var namaMenu:String,

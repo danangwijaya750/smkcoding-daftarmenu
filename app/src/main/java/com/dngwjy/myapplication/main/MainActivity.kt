@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity() {
         //asdasfaqw
         private val pages = listOf(
             MakananFragment.getInstance(),
-            MinumanFragment.getInstance()
+            MinumanFragment.getInstance(),
+            AddFragment.getInstance()
         )
         // menentukan fragment yang akan dibuka pada posisi tertentu
         override fun getItem(position: Int): Fragment {
@@ -40,7 +41,8 @@ class MainActivity : AppCompatActivity() {
         override fun getPageTitle(position: Int): CharSequence? {
             return when(position){
                 0 -> "Makanan"
-                else -> "Minumam"
+                1 -> "Minumam"
+                else-> "Tambah Data"
             }
         }
     }
